@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hangman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="assets/javascript/game.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- header -->
+        <div class="row">
+            <div class="col-md-12">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <img id="youwin-image" src="assets/images/you-win.png" alt="Winning Image" />
+                <img id="gameover-image" src="assets/images/gameover.png" alt="Game Over Image" />
+                <h2 id="pressKeyTryAgain">Press Any Key to Try Again!</h2>
+            </div>
+
+            <!-- Game Column -->
+            <div class="col-md-6">
+                <!-- hangman image -->
+                <img id="hangmanimg" src="" alt="">
+                <!-- Current Word -->
+                <h3>Current Word</h3>
+                <h2 id="currentWordbox"></h2>
+                <!-- guesses left -->
+                <h4>Guesses Left</h4>
+                <h3 id=guessesLeft></h3>
+                <!-- Letters Guessed -->
+                <h4>Letter Guessed</h4>
+                <h3 id="guessedLetters"></h3>
+                <button id="gameButton">
+                    Press to Start
+                </button>
+                <h4>Wins</h4>
+                <h3 id="winTotal"></h3>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+            reset();
+            updateDisplay();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
