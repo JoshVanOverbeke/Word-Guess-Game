@@ -1,0 +1,33 @@
+body {
+    background-image: url("../images/leaves.png");
+    text-align: center;
+}
+
+.container { 
+    text-align: center;
+    
+}
+
+h2, h3, #pressKeyTryAgain{
+    padding-top:1em;
+}
+
+#pressKeyTryAgain, 
+#gameover-image, 
+#youwin-image { display: none;}
+
+.header {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.game {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    padding-top: 20px;
+    border: 3px dashed #fff;
+    text-align: center;
+    margin-top: 20px;
+    min-height: 500px;
+    border: dashed 2px
+}
