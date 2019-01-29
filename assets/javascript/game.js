@@ -2,7 +2,7 @@
 const guesses=7;
 let guessesLeft=0;
 let score = 0;
-let words=['lung', 'blood', 'seaweed', 'street', 'blunt', 'wasabi','snowman', 'foxyboi'];
+let words=['lung', 'blood', 'seaweed', 'street', 'blunt', 'wasabi','snowman', 'foxyboi','dedede','salty','banned','jake','gordo', 'holy', 'trashman'];
 let guessedLetters=[];
 let gameStarted=false;
 let gameOver=false;
