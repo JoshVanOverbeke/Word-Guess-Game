@@ -15,7 +15,7 @@ function reset() {
     curWord=Math.floor(Math.random() * (words.length));
     guessedLetters=[];
     gameWord=[];
-    document.getElementById("hangmanimg").src = "assets/images/";
+    document.getElementById("hangmanimg").src = "assets/images/1.png";
     for (let i = 0; i < words[curWord].length; i++) {
         gameWord.push(" _ ");
     };
